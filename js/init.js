@@ -36,6 +36,7 @@ $(function(){
 		$('#quest-' + current).fadeIn(330);
 		number++;
 		$('#correct').html(correct);
+      	$('#decription').attr('content','Я ответил(-а) правильно на '+correct+' вопросов из 19. А на сколько ответишь ты?');
 		if (number == 23) {
 			$('.pages a:last-child').fadeOut(0);
 			$('.pages a:first-child').fadeIn(330);
