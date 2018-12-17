@@ -93,6 +93,12 @@ h3 {
 	color:#06476f;
 	box-shadow:none;
 }
+
+iframe { 
+	width: calc(100% - 20px)!important;
+	min-width: 200px;
+	max-width: 423px;
+}
 .pages {
 	margin-top: 20px;
 	padding-top: 42px;
