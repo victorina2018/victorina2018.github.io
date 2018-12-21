@@ -1,16 +1,31 @@
 @font-face {
     font-family: 'BKANT';
-    src: url('fonts/BKANT.eot');
-    src: url('fonts/BKANT.eot') format('embedded-opentype'),
-         url('fonts/BKANT.woff2') format('woff2'),
-         url('fonts/BKANT.woff') format('woff'),
-         url('fonts/BKANT.ttf') format('truetype'),
-         url('fonts/BKANT.svg#BKANT') format('svg');
+    src: url('../fonts/BKANT.eot');
+    src: url('../fonts/BKANT.eot') format('embedded-opentype'),
+         url('../fonts/BKANT.woff2') format('woff2'),
+         url('../fonts/BKANT.woff') format('woff'),
+         url('../fonts/BKANT.ttf') format('truetype'),
+         url('../fonts/BKANT.svg#BKANT') format('svg');
 }
 *{
 	margin: 0 auto;
 	padding: 0;
 	outline: none;
+	font-family: "BKANT";
+}
+::-webkit-scrollbar {
+  width: 5px;
+  border-radius: 5px;
+}
+::-webkit-scrollbar-track {
+  background: #f8f8f8;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #888;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #0087c1; 
 }
 input, textarea {
   -webkit-appearance: none;
@@ -18,20 +33,21 @@ input, textarea {
 }
 body, html {
 	height: 100%;
-	background: #e9e9e9;
+	#background: #e9e9e9;
 }
 h1 {
-	color: #f00;
+	color: #000;
 	font-family: BKANT;
-	font-size: 50px;
-	padding-top: 20px;
-	padding-bottom: 30px;
+	font-size: 28px;
+	padding-top: 5px;
+	padding-left: 20px;
+	padding-bottom: 20px;
 }
 h2 {
 	color: #06476f;
 	font-family: BKANT;
 	font-size: 32px;
-	padding-bottom: 40px;
+	padding-bottom: 30px;
 	max-width: 90%;
 }
 h3 {
@@ -41,41 +57,85 @@ h3 {
 	padding-bottom: 13px;
 	max-width: 90%;
 }
+.head {
+	padding-top: 40px;
+	padding-bottom: 30px;
+}
+.head ul {
+	width: 100%;
+	padding-left: 20px;
+}
+.head ul li {
+	display: inline;
+	list-style: none;
+	padding-right: 15px;
+	padding-left: 15px;
+	border-right: 1px solid #d9d9d9;
+}
+.head ul li:last-child {
+	border: 0;
+}
+.head ul li a {
+	font-size: 18px;
+	text-decoration: none;
+	color: #0087c1;
+	padding-bottom: 2px;
+	border-bottom: 1px dashed #0087c1;
+}
+.head ul li a:hover {
+	border: 0;
+	color: #4d4d4d;
+}
 .content {
 	width: 100%;
 	height: 100%;
-	display: table;
+	max-width: 900px;
 }
 .center {
 	vertical-align: middle;
 	height: 100%;
-	display: table-cell;
+	max-height: 431px;
 	text-align: center;
+	overflow-y: scroll;
+	background: #e9e9e9;
+	padding: 30px 30px;
+	text-align: left;
+}
+.center p {
+	text-indent: 20px;
+	margin-top: 10px;
 }
 .center img {
 	width: 90%;
 	max-width: 300px;
 	margin-bottom: 10px;
 }
+.center.tests img {max-width: 176px;}
+.center p img {
+	float: left;
+	padding-right: 25px;
+	padding-top: 10px;
+}
 #quest-0 img {
-	width: calc(100% - 20px);
+	width: 190px;
 	padding: 10px;
 	padding-bottom: 0px;
 	padding-top: 0px;
+	vertical-align: middle;
 	max-width: 600px;
 }
 .variant a {
 	display: inline-block;
 	padding: 18px 29px;
 	background: #d5d5d5;
-	margin-left: 10px;
-	margin-right: 10px;
+	margin-left: 5px;
+	margin-right: 5px;
 	border-radius: 5px;
 	color:#06476f;
 	text-decoration: none;
 	font-family: BKANT;
 	font-size: 18px;
-	margin-bottom: 20px;
+	margin-bottom: 12px;
 }
 .variant a span {
 	background: #fff9f9;
@@ -100,9 +160,9 @@ iframe {
 	max-width: 423px;
 }
 .pages {
-	margin-top: 20px;
-	padding-top: 42px;
-	border-top: 1px solid #ccc;
+	margin-top: 10px;
+	padding-top: 23px;
+	/* border-top: 1px solid #ccc; */
 	max-width: 400px;
 	padding-bottom: 10px;
 }
@@ -117,6 +177,7 @@ iframe {
 	text-decoration: none;
 	font-family: BKANT;
 	font-size: 18px;
+	text-align: center;
 	/* margin-top: 22px; */
 }
 .pages a:first-child {
@@ -126,6 +187,10 @@ iframe {
 }
 .pages a.start {
 	display:block;
+}
+.tests {
+	text-align: center;
+	/* max-height: 650px; */
 }
 .center img.vk {
 	width: auto!important;
@@ -174,4 +239,30 @@ a.next {
 	color:#0851a7;
 	margin-top: -10px;
 }
+}
+.shares {
+	text-align: right;
+	padding: 20px;
+	background: #e9efff;
+	margin-top: 20px;
+}
+.shares>span {
+	display: inline-block;
+	top: 4px;
+	padding-right:  10px;
+	position: relative;
+	color: #000000;
+}
+.ya-share2 {
+	display: inline-block;
+}
+.links {
+	padding-top: 18px;
+}
+.links p {
+	font-size: 17px;
+	font-weight: bold;
+	padding-bottom: 10px;
+	border-bottom: 1px solid #d0d0d0;
+	margin-bottom: 10px;
 }

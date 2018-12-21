@@ -1,0 +1,5 @@
+User-agent: *
+
+Host: https://victorina2018.github.io/
+
+Sitemap: https://victorina2018.github.io/sitemap.xml
