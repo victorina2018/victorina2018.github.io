@@ -8,7 +8,9 @@ function next(id) {
     }
 }
 $(function(){
-
+	$('button').click(function(){
+	  $('body').toggleClass('open');
+	});
 	$('.variant a').click(function(){
 		var id_quest = $(this).parent().attr('data-quest');
 		if(!$(this).parent().hasClass('checked')) {
