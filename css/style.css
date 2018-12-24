@@ -488,6 +488,11 @@ nav ul.menu li:hover:after {
 	text-decoration: none;
 	font-size: 29px;
 }
+
+nav ul.menu li:after {
+  pointer-events: none;
+}
+
 @-webkit-keyframes menu-animation {
   0% {
     opacity: 0;
