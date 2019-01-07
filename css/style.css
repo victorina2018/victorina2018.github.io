@@ -603,6 +603,12 @@ nav ul.menu li:after {
     border-radius: 0;
   }
 }
+.links a:last-child {
+  vertical-align: top;
+  top: 4px;
+  position: relative;
+  float: right;
+}
 
 /* Responsive */ 
 
@@ -663,12 +669,11 @@ nav ul.menu li:after {
 	.links {
 		text-align: center;
 	}
+  .links a:last-child {
+    display: none; 
+  }
 }
-.links a:last-child {
-  vertical-align: top;
-  top: 4px;
-  position: relative;
-}
+
 blockquote {
   font-style: italic;
   padding-top: 15px;
