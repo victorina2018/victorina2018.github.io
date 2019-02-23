@@ -287,7 +287,11 @@ a.next {
 	margin-top: -34px;
 }
 
-
+.vk_comments {
+  padding: 20px;
+  margin-top: 20px;
+  width: 100%;  
+}
 
 nav ul {
   list-style: none;
