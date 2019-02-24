@@ -209,7 +209,7 @@ iframe {
 #vkwidget2 {
   width: 100% !important;
   max-width: none;
-  min-width: 100%;
+  min-width: 100% !important;
  }	
 
 .pages {
