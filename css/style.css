@@ -194,8 +194,10 @@ iframe {
 	max-width: 423px;
 }
 
-.vk_сomments {
+.vk_comments {
   padding: 10px;
+  margin-top: 20px;
+  width: 100%;  
 }
 
 #vkwidget1 {
@@ -297,12 +299,6 @@ a.next {
 	text-align: left;
 	color:#0851a7;
 	margin-top: -34px;
-}
-
-.vk_comments {
-  padding: 20px;
-  margin-top: 20px;
-  width: 100%;  
 }
 
 nav ul {
