@@ -202,8 +202,8 @@ iframe {
   width: 100% !important;
   max-width: none;
   margin-top: 20px;
-
-}
+  border: 2px solid grey;
+}	
 .pages {
 	margin-top: 10px;
 	padding-top: 23px;
