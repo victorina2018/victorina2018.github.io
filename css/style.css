@@ -661,6 +661,10 @@ nav ul.menu li:after {
 	ul.menu-desktop {
 		display: none;
 	}
+	
+	#vk_comments {
+		display: none;
+	}
 }
 @media (min-width: 600px) {
 	button {
