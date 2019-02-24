@@ -195,6 +195,10 @@ iframe {
 }
 
 #vk_comments {
+<<<<<<< HEAD
+  padding: 10px;
+=======
+>>>>>>> c90e21feebf851dc7cec4aaa24e80be470d231c6
   width: 100%;  
 }
 
@@ -285,6 +289,7 @@ a.next {
 .links {
 	padding-top: 38px;
 }
+
 .links p {
 	font-size: 17px;
 	font-weight: bold;
