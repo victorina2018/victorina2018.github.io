@@ -195,10 +195,7 @@ iframe {
 }
 
 #vk_comments {
-<<<<<<< HEAD
   padding: 10px;
-=======
->>>>>>> c90e21feebf851dc7cec4aaa24e80be470d231c6
   width: 100%;  
 }
 
@@ -212,6 +209,7 @@ iframe {
 #vkwidget2 {
   width: 100% !important;
   max-width: none;
+  min-width: 100%;
  }	
 
 .pages {
