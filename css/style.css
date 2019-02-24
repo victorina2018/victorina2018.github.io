@@ -283,6 +283,7 @@ a.next {
 	display: inline-block;
 }
 .links {
+	margin-top: 10px;
 	padding-top: 18px;
 }
 .links p {
