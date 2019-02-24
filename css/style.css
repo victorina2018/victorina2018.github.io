@@ -33,8 +33,9 @@ input, textarea {
 }
 body, html {
 	height: 100%;
-	#background: #e9e9e9;
-}
+	#background: #e9e9e9;}
+
+
 h1 {
 	color: #000;
 	font-family: BKANT;
