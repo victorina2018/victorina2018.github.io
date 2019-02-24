@@ -188,10 +188,16 @@ h3 {
 	box-shadow:none;
 }
 
-iframe { 
+iframe name="_ym_native" { 
 	width: calc(100% - 20px)!important;
 	min-width: 200px;
 	max-width: 423px;
+}
+
+#vkwidget1 {
+  width: 100%;
+  min-width: none;
+	max-width: none;
 }
 .pages {
 	margin-top: 10px;
